@@ -1,10 +1,11 @@
 def setup():
     size(1000,800)
-    
+  sida.208  
 def draw():
     background(255)
     translate(500,700)
-    y(150,15)
+    level = int(map(mouseX,0,width,0,15))
+    y(150,level)
     
     
 def y(sz,level):
